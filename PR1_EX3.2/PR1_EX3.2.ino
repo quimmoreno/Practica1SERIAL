@@ -28,4 +28,4 @@ void loop()
   thisByte++;     // go on to the next character
 
 } 
-
+//Quim Moreno
