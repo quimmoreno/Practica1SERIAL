@@ -15,23 +15,23 @@ void setup()              // run once, when the sketch starts
   Serial.print("c = ");
   Serial.println(c);
 
-  Serial.print("a + b = ");       // add
+  Serial.print("a + b = ");       // SUMA
   Serial.println(a + b);
 
-  Serial.print("a * c = ");       // multiply
+  Serial.print("a * c = ");       // MULTIPLICACIO
   Serial.println(a * c);
   
-  Serial.print("c / b = ");       // divide
+  Serial.print("c / b = ");       // DIVISIO
   Serial.println(c / b);
 
-  Serial.print("c % b = ");       // module
+  Serial.print("c % b = ");       // %
   Serial.println(c % b);
   
-  Serial.print("b - c = ");       // subtract
+  Serial.print("b - c = ");       // RESTA
   Serial.println(b - c);
 }
 
-void loop()  // we need this to be here even though its empty
+void loop()  //NO FER RES
 {
 }
  //Quim Moreno
