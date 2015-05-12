@@ -18,7 +18,7 @@ void setup()              // run once, when the sketch starts
     Serial.print("Aigua a 100 Graus C ");     //Si la temperatura de l'aigua  esta a 100 graus escriu:Aigua a 100 Graus C
   }
   
-    else if ( tempAigua < 100)
+    else 
   {
     Serial.print("Aigua Bullint");            // Si la temperatura de l'aigua és superior a 100 graus escriu: Aigua Bull
   }
