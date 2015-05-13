@@ -1,4 +1,4 @@
-int sensorReading = 4;
+int sensorReading = 1;
 /*
  0= FOSC
  1= MIG FOSC
@@ -9,7 +9,7 @@ int sensorReading = 4;
 void setup()
 {
   Serial.begin(9600);
-  Serial.print("El dia és  "); // Escriu el dia és
+  Serial.print("El dia es  "); // Escriu el dia és
    
   switch (sensorReading) {
   case 0:    
